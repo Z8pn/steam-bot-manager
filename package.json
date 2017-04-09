@@ -1,0 +1,24 @@
+{
+  "name": "steam-bot-manager",
+  "version": "1.0.0",
+  "description": "```javascript\r var BotManager = require('./lib/bots');\r     BotManager = new BotManager();\r ```",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z8pn/steam-bot-manager.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Z8pn/steam-bot-manager/issues"
+  },
+  "homepage": "https://github.com/Z8pn/steam-bot-manager#readme",
+  "dependencies": {
+    "globaloffensive": "^1.2.5",
+    "steam-totp": "^1.4.0",
+    "steam-tradeoffer-manager": "^2.5.0",
+    "steam-user": "^3.17.0",
+    "steamcommunity": "^3.30.4"
+  }
+}

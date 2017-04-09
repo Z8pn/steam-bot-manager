@@ -2,6 +2,7 @@
   "name": "steam-bot-manager",
   "version": "1.0.0",
   "description": "```javascript\r var BotManager = require('./lib/bots');\r     BotManager = new BotManager();\r ```",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Z8pn/steam-bot-manager.git"
   },
+  "author": "Z8pn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Z8pn/steam-bot-manager/issues"

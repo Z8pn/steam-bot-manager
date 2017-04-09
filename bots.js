@@ -35,7 +35,7 @@ module.exports = class extends EventEmitter {
                     "cancelTime": 1000 * 60 * 3
                 });
                 self._bots[id].status = "offline";
-                self._bots[id].pollInterval = undefined;;
+                self._bots[id].pollInterval = undefined;
                 self._bots[id]._gc_status = false;
                 self._bots[id]._gc_used = false;
                 self._bots[id]._identity_secret = self._bots[id].accountData.identity_secret,
